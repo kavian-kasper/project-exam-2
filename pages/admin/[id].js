@@ -31,6 +31,7 @@ export async function getStaticPaths() {
   return {
       props: {
         data },
+        revalidate: 30
     }
   }
 
