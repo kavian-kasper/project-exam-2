@@ -25,8 +25,7 @@ export async function getStaticPaths() {
     console.log(data)
 
     return {
-      props: {
-        data },
+      props: { data },
     }
   }
 
